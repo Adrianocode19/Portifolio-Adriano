@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "nome": "Feliz Natal",
+      "descricao": "Uma página de natal, feita para praticar meus conhecimentos.",
+      "imagem": "/assets/felizNatal.webp",
+      "link": "https://feliz-natal-rosy.vercel.app/"
+    },
+    {
+      "nome": "Age Calculator",
+      "descricao": "Uma calculadora de idade, onde você coloca a data de nascimento e ela te retorna a idade.",
+      "imagem": "/assets/ageCalculator.webp",
+      "link": "https://age-calculator-ruby-omega.vercel.app/"
+    },
+    {
+      "nome": "Social links",
+      "descricao": "Um card com links de redes sociais para facilitar o contato com clientes.",
+      "imagem": "/assets/socialLinks.webp",
+      "link": "https://social-links-adriano.vercel.app/"
+    }
+  ]
+}

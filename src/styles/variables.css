@@ -1,0 +1,10 @@
+:root {
+  --primary: #77b0aa;
+  --secondary: #135d66;
+  --dark: #0f172a;
+  --veryDark: #0a0f1c;
+  --light: #e2e8f0;
+  --glass: rgba(255, 255, 255, 0.1);
+  --glass-background: rgba(255, 255, 255, 0.05);
+  --shadow-color: #003c43;
+}

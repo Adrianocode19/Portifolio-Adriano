@@ -1,0 +1,56 @@
+.contact {
+  padding: 6rem 2rem;
+}
+
+.contactTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+
+.contactForm {
+  max-width: 600px;
+  margin: 0 auto;
+  background: var(--glass-background);
+  backdrop-filter: blur(5px);
+  padding: 2rem;
+  border: 1px solid var(--glass);
+  border-radius: 16px;
+}
+
+.formContainer {
+  margin-bottom: 1.5rem;
+}
+
+.formInput {
+  width: 100%;
+  max-width: 100%;
+  padding: 1rem;
+  background: var(--glass-background);
+  border-radius: 8px;
+  border: 1px solid var(--glass);
+  outline: none;
+  color: var(--light);
+}
+
+.formInput:focus {
+  border-color: var(--secondary);
+  box-shadow: 0 0 10px var(--shadow-color);
+}
+
+.formButton {
+  color: var(--light);
+  background: linear-gradient(45deg, var(--primary), var(--secondary));
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+  transition: all 0.5s ease;
+}
+
+.formButton:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 5px 15px var(--shadow-color);
+}

@@ -1,0 +1,43 @@
+.about {
+  padding: 6rem 2rem;
+}
+
+.aboutContent {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 16px;
+  border: 1px solid var(--glass);
+  backdrop-filter: blur(10px);
+  background: var(--glass-background);
+}
+
+.aboutText {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.buttonCV {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  color: var(--light);
+  background: transparent;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  border: 2px solid var(--secondary);
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  width: 100%;
+  transition: all 0.5s ease;
+}
+
+.buttonCV:hover {
+  background: var(--secondary);
+}

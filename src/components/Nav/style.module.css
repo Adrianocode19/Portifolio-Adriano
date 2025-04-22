@@ -1,0 +1,39 @@
+@import url("../../styles/variables.css");
+.navigation {
+  position: fixed;
+  background: rgba(15, 23, 42, 0.8);
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  padding: 1.5rem;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 3.5rem;
+  justify-content: center;
+}
+
+.menuLink {
+  text-decoration: none;
+  color: var(--light);
+  font-weight: 500;
+  position: relative;
+  padding: 0.5rem 0;
+}
+
+.menuLink::after {
+  content: "";
+  height: 2px;
+  width: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  transition: 0.5s ease;
+}
+
+.menuLink:hover::after {
+  width: 100%;
+}
