@@ -17,6 +17,12 @@
       "descricao": "Um card com links de redes sociais para facilitar o contato com clientes.",
       "imagem": "/assets/socialLinks.webp",
       "link": "https://social-links-adriano.vercel.app/"
+    },
+    {
+      "nome": "DropDown Page",
+      "descricao": "Pagína responsiva com menu dropDown, criada ultilizando Vue 3 e Nuxt.",
+      "imagem": "/assets/dropDown.webp",
+      "link": "https://drop-down-page-rrnq.vercel.app/"
     }
   ]
 }
