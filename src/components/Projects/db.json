@@ -23,6 +23,12 @@
       "descricao": "Pagína responsiva com menu dropDown, criada ultilizando Vue 3 e Nuxt.",
       "imagem": "/assets/dropDown.webp",
       "link": "https://drop-down-page-rrnq.vercel.app/"
+    },
+    {
+      "nome": "E-commerce",
+      "descricao": "Página de e-commerce, onde você pode adicionar itens no carrinho, favoritar e preencher um formulário com validações e reCAPTCHA.",
+      "imagem": "/assets/ecommerce.webp",
+      "link": "https://e-commerce-play.vercel.app/"
     }
   ]
 }
