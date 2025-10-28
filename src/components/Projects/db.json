@@ -4,31 +4,36 @@
       "nome": "Feliz Natal",
       "descricao": "Uma página de natal, feita para praticar meus conhecimentos.",
       "imagem": "/assets/felizNatal.webp",
-      "link": "https://feliz-natal-rosy.vercel.app/"
+      "link": "https://feliz-natal-rosy.vercel.app/",
+      "tecnologias": ["React"]
     },
     {
       "nome": "Age Calculator",
       "descricao": "Uma calculadora de idade, onde você coloca a data de nascimento e ela te retorna a idade.",
       "imagem": "/assets/ageCalculator.webp",
-      "link": "https://age-calculator-ruby-omega.vercel.app/"
+      "link": "https://age-calculator-ruby-omega.vercel.app/",
+      "tecnologias": ["HTML", "CSS", "JavaScript"]
     },
     {
       "nome": "Social links",
       "descricao": "Um card com links de redes sociais para facilitar o contato com clientes.",
       "imagem": "/assets/socialLinks.webp",
-      "link": "https://social-links-adriano.vercel.app/"
+      "link": "https://social-links-adriano.vercel.app/",
+      "tecnologias": ["React", "JavaScript"]
     },
     {
       "nome": "DropDown Page",
       "descricao": "Pagína responsiva com menu dropDown, criada ultilizando Vue 3 e Nuxt.",
       "imagem": "/assets/dropDown.webp",
-      "link": "https://drop-down-page-rrnq.vercel.app/"
+      "link": "https://drop-down-page-rrnq.vercel.app/",
+      "tecnologias": ["Nuxt"]
     },
     {
       "nome": "E-commerce",
       "descricao": "Página de e-commerce, onde você pode adicionar itens no carrinho, favoritar e preencher um formulário com validações e reCAPTCHA.",
       "imagem": "/assets/ecommerce.webp",
-      "link": "https://e-commerce-play.vercel.app/"
+      "link": "https://e-commerce-play.vercel.app/",
+      "tecnologias": ["Nuxt", "TypeScript", "Tailwind"]
     }
   ]
 }
