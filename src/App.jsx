@@ -16,15 +16,31 @@ const App = () => {
     document.title = docTitle;
   });
 
+  window.addEventListener("load", () => {
+    setTimeout(() => {
+      document.getElementById("loading-screen").style.display = "none";
+      document.getElementById("main-content").style.display = "block";
+    }, 3000); // tempo da animação
+  });
+
   return (
     <>
-      <Effect />
-      <Navigation />
-      <Perfil />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
+      <div id="loading-screen">
+        <h1>Carregando...</h1>
+        <div className="loader-bar">
+          <div className="progress"></div>
+        </div>
+      </div>
+
+      <div id="main-content" style={{ display: "none" }}>
+        <Effect />
+        <Navigation />
+        <Perfil />
+        <About />
+        <Projects />
+        <Contact />
+        <Footer />
+      </div>
     </>
   );
 };
