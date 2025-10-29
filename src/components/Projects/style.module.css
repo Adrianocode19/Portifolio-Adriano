@@ -38,6 +38,10 @@
 
 .projectCard:hover::after {
   content: "Clique para ver o projeto";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
   color: white;
   position: absolute;
   top: 30%;
