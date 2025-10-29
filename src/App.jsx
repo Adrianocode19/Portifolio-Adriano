@@ -7,8 +7,14 @@ import "./styles/variables.css";
 import "./styles/main.css";
 import Effect from "./components/Effect";
 import Footer from "./components/Footer";
+import { useEffect } from "react";
+import { initScrollEffect } from "./utils/scrollEffect";
 
 const App = () => {
+  useEffect(() => {
+    initScrollEffect();
+  }, []);
+
   let docTitle = document.title;
   window.addEventListener("blur", () => {
     document.title = "Volte sempre!😄";
@@ -36,10 +42,18 @@ const App = () => {
       <div id="main-content" style={{ display: "none" }}>
         <Effect />
         <Navigation />
-        <Perfil />
-        <About />
-        <Projects />
-        <Contact />
+        <div className="scroll-reveal">
+          <Perfil />
+        </div>
+        <div className="scroll-reveal">
+          <About />
+        </div>
+        <div className="scroll-reveal">
+          <Projects />
+        </div>
+        <div className="scroll-reveal">
+          <Contact />
+        </div>
         <Footer />
       </div>
     </>

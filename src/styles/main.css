@@ -30,6 +30,17 @@
   animation: load 3s forwards;
 }
 
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.scroll-reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 @keyframes load {
   to {
     width: 100%;
