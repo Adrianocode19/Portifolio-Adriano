@@ -4,6 +4,7 @@ import Navigation from "./components/Nav";
 import Perfil from "./components/Perfil";
 import Projects from "./components/Projects";
 import "./styles/variables.css";
+import "./styles/main.css";
 import Effect from "./components/Effect";
 import Footer from "./components/Footer";
 
